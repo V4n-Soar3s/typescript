@@ -36,7 +36,7 @@ testeArrow();//chamamos a arrow function
 const user = {
     name:'Theo', 
     nomeDoUsuario(){//iremos criar duas funções onde o this ira nos ajudar utilizando arrow function
-        var self = this
+        var self = this;//bindei a função
         setTimeout(function(){//a partir daqui o nosso this é window porque nós nao estamos mais ligado ao objeto
             console.log(self);
             console.log("Username: " + self.name)
