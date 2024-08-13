@@ -11,7 +11,7 @@ console.log(arr);//o array original nao é modificado
 console.log(numerosAltos);//mas a constante numeros altos só ira apresentar os elementos citados dentro do bloco numeros altos. 
 
 //vamos criar um array de objetos
-const usuarios = [  {name: "Matheus", available: true}, 
+const usuarios = [{name: "Matheus", available: true}, 
                   {name: "Pedro", available: false}, 
                   {name: "João", available: false}, 
                   {name: "Roberto", available: true}, 
