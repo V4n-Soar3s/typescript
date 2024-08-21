@@ -9,3 +9,9 @@ x = 16;// com a tipagem só é possivel mudar a variavel para valores que tbm se
 
 console.log(typeof x);// aqui estou solicitando que seja apresentado no console o tipo de dado que esta sendo apresentado no caso number 
 
+const y:number = 15.584848;//isso tbm é considerado um number 
+console.log(y);//solicitei que seja apresentada a variavel
+console.log(typeof y);//pedi a verificação da tipagem 
+console.log(y.toPrecision(3));//solicitei que sejam apresentados apenas 3 casas decimais do número flutuante armazenado y 
+
+
