@@ -16,5 +16,14 @@ nomes.push("Ana"); //aqui adicionamos o nome ana no array utilizando push
 
 console.log(nomes); 
 
+//Sintaxe alternativa de arrays - Array<number> (antiga)
+
+const num: Array<number> = [100, 200, 300]; //sintaxe de array antiga
+
+num.push(400);//adicionei o numero 400 ao array 
+console.log(num);// solicitei que seja apresentado no console o array num já com o numero do push adicionado  
+
+
+
 
 
