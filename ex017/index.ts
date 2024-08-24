@@ -1,7 +1,5 @@
-console.log("Testando 2"); 
+let num:number = 1; 
+let numString = num.toString();
 
-function soma(a: number, b: number){
-    return a + b;
-}
+console.log(`O número é: ${numString}`); 
 
-console.log(soma(3, 4)); 

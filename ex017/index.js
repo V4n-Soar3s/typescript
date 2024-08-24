@@ -1,6 +1,4 @@
 "use strict";
-console.log("Testando 2");
-function soma(a, b) {
-    return a + b;
-}
-console.log(soma(3, 4));
+let num = 1;
+let numString = num.toString();
+console.log(`O número é: ${numString}`);
