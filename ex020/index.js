@@ -18,3 +18,13 @@ function saudacao(name) {
     return `Olá ${name}`; // solicitei que seja retornado o valor quando invocada a função 
 }
 console.log(saudacao("Vanessa")); // invoquei a funcao e solicitei que seja apresentado um valor 
+/*Funções anônimas em TS
+
+-> O TS consegue nos ajudar também em funções anônimas;
+-> Fazendo uma validação do códgio digitado, nos fornecendo dicas de possíveis problemas;
+-> Exemplo: métodos não existentes;*/
+setTimeout(function () {
+    const salario = 1000;
+    //console.log(salario)
+    //console.log(parseFloat(salario)); - se utilizarmos isso seremos informados que o argumento number nao serve pois nao é uma string ou seja esse método parseFloat é utilizado para converter uma string em um float e nao um number em um float, entao nos temos um ajuste em TS que não permite que seja utilizado algo errado
+}, 2000); // quando defino esse 2k no final é solicitando que ela aguarde 2s e execute alguma coisa
