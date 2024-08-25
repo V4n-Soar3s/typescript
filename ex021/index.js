@@ -16,3 +16,4 @@ function passCoordinates(coord) {
 }
 const objCoord = { x: 329, y: 84.2 };
 passCoordinates(objCoord); //passamos o objCoord porque ele corresponde exatamente com o que a função exige 
+const pessoaObj = { nome: "Vanessa", surname: "Soares" };
