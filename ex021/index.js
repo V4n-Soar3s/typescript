@@ -17,3 +17,23 @@ function passCoordinates(coord) {
 const objCoord = { x: 329, y: 84.2 };
 passCoordinates(objCoord); //passamos o objCoord porque ele corresponde exatamente com o que a função exige 
 const pessoaObj = { nome: "Vanessa", surname: "Soares" };
+/*
+Propriedades opcionais
+
+-> Nem sempre os ob objetos possuems todas as propriedades que poderiam possuir;
+-> Por isso temos as propriedades opcionais;
+-> Para ter esse resultado devemos colocar uma interrogação: {nome: string, sobrenome?:string}
+
+*/
+function exibaNumeros(a, b, c) {
+    console.log("A: " + a);
+    console.log("B: " + b);
+    console.log("C: " + c);
+    if (c) {
+        console.log("C: " + c);
+    }
+}
+exibaNumeros(1, 2, 3);
+//exibaNumeros(4, 5) -> isso daria erro pq eu so coloquei tres valores e aqui estou pedindo para exibir apenas dois
+exibaNumeros(4, 5); //aqui apos inserir o ponto de interrogação sera possivel exibir porque o C se tornou um valor que não é obrigatorio de ser definido
+//exibaNumeros(6);
