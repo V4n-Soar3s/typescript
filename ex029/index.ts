@@ -12,3 +12,14 @@ console.log(n);
 console.log(typeof n);
 
 console.log(n+100n);
+
+//Symbol 
+
+let symbolA:symbol = Symbol("a");//declaramos e tipamos 
+let symbolB = Symbol("a")//declaramos sem tipar
+
+//symbolA é igual a symbolB?
+console.log(symbolA === symbolB);
+
+
+
