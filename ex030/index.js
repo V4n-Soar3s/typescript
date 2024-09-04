@@ -24,6 +24,8 @@ function operations(arr, operation) {
             const sum = arr.reduce((i, total) => i + total);
         }
         else if (operation === "multiply") {
+            const multiply = arr.reduce((i, total) => i * total);
+            console.log(multiply);
         }
     }
     else { //se nao tiver faremos outra
@@ -32,3 +34,4 @@ function operations(arr, operation) {
 }
 operations([1, 2, 3]);
 operations([1, 2, 3], "sum");
+operations([2, 4, 8], "multiply");

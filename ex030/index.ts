@@ -26,7 +26,8 @@ function operations(arr: number[], operation?: string | undefined){
         if(operation === "sum"){
             const sum = arr.reduce((i, total) => i + total)
         }else if(operation === "multiply"){
-            
+            const multiply = arr.reduce((i, total) => i * total)
+            console.log(multiply)
         }
     }else{//se nao tiver faremos outra
         console.log("Por favor, defina uma operação. ")
@@ -35,3 +36,4 @@ function operations(arr: number[], operation?: string | undefined){
 
 operations([1, 2, 3]);
 operations([1, 2, 3], "sum")
+operations([2, 4, 8], "multiply")
